@@ -24,4 +24,4 @@ if __name__ == "__main__":
         app.run(host="0.0.0.0", port=port)
 
     threading.Thread(target=run_flask).start()
-    bot.run(os.environ["DISCORD_TOKEN"])
+    bot.run(os.environ["1057053432973885571"])
